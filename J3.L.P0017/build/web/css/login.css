@@ -1,0 +1,31 @@
+body {
+    color: #000;
+    background: #ffffff;
+}
+.form-control {
+    min-height: 41px;
+    background: #fff;
+    box-shadow: none !important;
+    border-color: #e3e3e3;
+}
+.form-control:focus {
+    border-color: #70c5c0;
+}
+.form-control, .btn {        
+    border-radius: 2px;
+}
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px 0 30px;		
+}
+
+.login-form h2 {
+    font-size: 22px;
+    margin: 35px 0 25px;
+}	
+.login-form input[type="checkbox"] {
+    position: relative;
+    top: 1px;
+}
+
